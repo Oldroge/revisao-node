@@ -12,7 +12,8 @@ function exercise1(n1, n2, n3) {
   return promise;
 }
 
-exercise1(2, 3, 40)
-  .then((response) => console.log(response))
-  .catch((erro) => console.log(erro));
+// exercise1(2, 3, 40)
+//   .then((response) => console.log(response))
+//   .catch((erro) => console.log(erro));
+module.exports = exercise1;
 
